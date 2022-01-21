@@ -1,0 +1,223 @@
+
+.logo {
+    margin: 0;
+    font-family: 'Dongle', sans-serif;
+    font-size: 50px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0 var(--spacing-3);
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutme {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 17px;
+    position: absolute;
+    top: 23px;
+    left: 1200px;
+}
+
+.project {
+    list-style-type: none;
+    font-weight: bold;
+    font: 17px;
+    position: absolute;
+    top: 23px;
+    left: 1305px;
+}
+
+.skills {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 17px;
+    position: absolute;
+    top: 23px;
+    left: 1390px;
+}
+
+.contact {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 17px;
+    position: absolute;
+    top: 23px;
+    left: 1460px;
+}
+
+.aboutme a,
+.project a,
+.skills a,
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.about {
+    font-family: 'Dongle', sans-serif;
+    font-size: 45px;
+    position: absolute;
+    top: 60px;
+}
+
+.textabout {
+    position: absolute;
+    top: 160px;
+}
+
+.myphoto {
+    width: 40%;
+    height: 40%;
+    float: right;
+    margin-top: 30px;
+    margin-right: -100px;
+    border-radius: 20px;
+}
+
+.text1,
+.text2,
+.text3 {
+    line-height: 125%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.projects {
+    font-family: 'Dongle', sans-serif;
+    font-size: 45px;
+    position: relative;
+    top: 430px;
+}
+
+.text4 {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    position: relative;
+    top: 400px;
+    text-decoration: none;
+    color: black;
+}
+
+.text5 {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 435px;
+    left: -97px;
+}
+
+.text6 {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 469px;
+    left: -196px;
+}
+
+.skill {
+    font-family: 'Dongle', sans-serif;
+    font-size: 45px;
+    position: relative;
+    top: 500px;
+}
+
+.text7 {
+    font-family: 'Dongle', sans-serif;
+    font-size: 45px;
+}
+
+.text8 {
+    font-family: 'Dongle', sans-serif;
+    font-size: 27px;
+    position: relative;
+    top: -30px;
+}
+
+.text9 {
+    position: relative;
+    top: 50px;
+    left: 330px;
+}
+
+.in {
+    width: 4%;
+    height: 4%;
+    position: relative;
+    top: -30px;
+}
+
+.gh {
+    width: 4%;
+    height: 4%;
+    position: relative;
+    left: 20px;
+    top: -30px;
+}
+
+.mail {
+    width: 5%;
+    height: 5%;
+    position: relative;
+    left: 35px;
+    top: -25px;
+}
+
+.text10,
+.text11,
+.text12 {
+    text-decoration: none;
+}
+
+.html {
+    width: 6%;
+    height: 6%;
+    position: relative;
+    top: 460px;
+}
+
+.css {
+    width: 6%;
+    height: 6%;
+    position: relative;
+    top: 460px;
+    left: 40px;
+}
+
+.js {
+    width: 6%;
+    height: 6%;
+    position: relative;
+    top: 460px;
+    left: 63px;
+}
+
+.heart {
+    color: red;
+}
+
+footer {
+    position: relative;
+    top: 500px;
+    text-align: center;
+    margin-top: auto;
+    font-family: 'Dongle', sans-serif;
+    font-size: 28px;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-container,
+    .navigation {
+        flex-direction: column;
+    }
+}
+
