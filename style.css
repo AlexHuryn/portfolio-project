@@ -215,17 +215,9 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-    .myphoto {
-        position: relative;
-        left: 250px;
-    }
-    .textabout {
-        position: relative;
-        top: 300px;
-    }
+    .about-container,
     .navigation {
-        position: relative;
-        right: 350px;
+        flex-direction: column;
     }
 }
 
